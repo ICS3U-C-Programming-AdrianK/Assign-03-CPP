@@ -99,23 +99,19 @@ int main() {
                             std::cout << "\n";
                         }
                     } catch (std::invalid_argument) {
-                        std::cout << "The height of your package is not "
-                            << "a valid number";
+                        std::cout << heightAsStr << "is not a number";
                         std::cout << "\n";
                     }
                 } catch (std::invalid_argument) {
-                    std::cout << "The weight of your package is not "
-                        << "a valid number";
+                    std::cout << weightAsStr << "is not a number";
                     std::cout << "\n";
                 }
             } catch (std::invalid_argument) {
-                std::cout << "The width of your package is not "
-                    << "a valid number";
+                std::cout << widthAsStr << "is not a number";
                 std::cout << "\n";
             }
         } catch (std::invalid_argument) {
-            std::cout << "The length of your package is not "
-                << "a valid number";
+            std::cout << lengthAsStr << "is not a number";
             std::cout << "\n";
         }
     } else {
