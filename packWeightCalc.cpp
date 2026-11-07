@@ -69,24 +69,27 @@ int main() {
                                 << packVolume << "cm³" << std::endl;
                             if (weightAsFloat > MAX_WEIGHT ||
                             packVolume > MAX_VOLUME) {
-                                if (weightAsFloat > MAX_WEIGHT) {
-                                    std::cout << "Your package is not "
-                                        << "acceptable because it is "
-                                        << "too heavy";
+                                if (weightAsFloat > MAX_WEIGHT
+                                && !(packVolume > MAX_VOLUME)) {
+                                    std::cout << "Your package has"
+                                    " an appropriate volume";
+                                    std::cout << "\n";
+                                    std::cout << "Unfortunately it is not "
+                                    "acceptable because it is too heavy";
+                                    std::cout << "\n";
+                                } else if (packVolume > MAX_VOLUME
+                                    && weightAsFloat <= MAX_WEIGHT) {
+                                    std::cout << "Your package has"
+                                    " an appropriate weight";
+                                    std::cout << "\n";
+                                    std::cout << "Unfortunately it is not "
+                                    "acceptable because it is too voluminous";
                                     std::cout << "\n";
                                 } else {
-                                    std::cout << "Your package has an "
-                                        << "appropriate weight";
-                                    std::cout << "\n";
-                                }
-                                if (packVolume > MAX_VOLUME) {
-                                    std::cout << "Your package is not "
-                                        << "acceptable because it is "
-                                        << "too voluminous";
-                                    std::cout << "\n";
-                                } else {
-                                    std::cout << "Your package has an "
-                                        << "appropriate volume";
+                                    std::cout << "Your package is "
+                                    "not acceptable "
+                                    "because it is too voluminous"
+                                    " and too heavy";
                                     std::cout << "\n";
                                 }
                             } else {
