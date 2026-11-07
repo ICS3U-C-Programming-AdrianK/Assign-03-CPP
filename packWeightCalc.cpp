@@ -98,7 +98,7 @@ int main() {
                             std::cout << "\n";
                         }
                     } catch (std::invalid_argument) {
-                        std::cout << heightAsStr << "is not a number";
+                        std::cout << heightAsStr << " is not a number";
                         std::cout << "\n";
                     }
                 } catch (std::invalid_argument) {
