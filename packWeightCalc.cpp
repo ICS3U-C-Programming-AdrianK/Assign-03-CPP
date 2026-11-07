@@ -70,7 +70,7 @@ int main() {
                             if (weightAsFloat > MAX_WEIGHT ||
                             packVolume > MAX_VOLUME) {
                                 if (weightAsFloat > MAX_WEIGHT) {
-                                    std::cout << " Your package is not "
+                                    std::cout << "Your package is not "
                                         << "acceptable because it is "
                                         << "too heavy";
                                     std::cout << "\n";
