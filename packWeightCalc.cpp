@@ -111,7 +111,7 @@ int main() {
                 std::cout << "\n";
             }
         } catch (std::invalid_argument) {
-            std::cout << lengthAsStr << "is not a number";
+            std::cout << lengthAsStr << " is not a number";
             std::cout << "\n";
         }
     } else {
