@@ -102,7 +102,7 @@ int main() {
                         std::cout << "\n";
                     }
                 } catch (std::invalid_argument) {
-                    std::cout << weightAsStr << "is not a number";
+                    std::cout << weightAsStr << " is not a number";
                     std::cout << "\n";
                 }
             } catch (std::invalid_argument) {
