@@ -33,25 +33,25 @@ int main() {
     std::cout << "\n";
     if (packShape == "rectangle" || packShape == "rectangular") {
         // Get the length of the package
-        std::cout << "Enter the length your package (cm) : ";
+        std::cout << "Enter the length of your package (cm) : ";
         std::cin >> lengthAsStr;
         try {
             // cast the length to a float
             lengthAsFloat = std::stof(lengthAsStr);
             // Get the width of the package
-            std::cout << "Enter the width your package (cm) : ";
+            std::cout << "Enter the width of your package (cm) : ";
             std::cin >> widthAsStr;
             try {
                 // cast the width to a float
                 widthAsFloat = std::stof(widthAsStr);
                 // Get the weight of the package
-                std::cout << "Enter the weight your package (kg) : ";
+                std::cout << "Enter the weight of your package (kg) : ";
                 std::cin >> weightAsStr;
                 try {
                     // cast the weight to a float
                     weightAsFloat = std::stof(weightAsStr);
                     // Get the height of the package
-                    std::cout << "Enter the height your package (cm) : ";
+                    std::cout << "Enter the height of your package (cm) : ";
                     std::cin >> heightAsStr;
                     try {
                         // cast the height to a float
