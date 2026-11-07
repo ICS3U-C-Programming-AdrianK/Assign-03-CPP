@@ -94,7 +94,7 @@ int main() {
                                 std::cout << "\n";
                             }
                         } else {
-                            std::cout << " wrong input, all measurements "
+                            std::cout << "wrong input, all measurements "
                                 << "have to be greater than 0 ";
                             std::cout << "\n";
                         }
