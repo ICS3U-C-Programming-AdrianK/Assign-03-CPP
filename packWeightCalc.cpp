@@ -77,6 +77,7 @@ int main() {
                                 } else {
                                     std::cout << "Your package has an "
                                         << "appropriate weight";
+                                    std::cout << "\n";
                                 }
                                 if (packVolume > MAX_VOLUME) {
                                     std::cout << "Your package is not "
