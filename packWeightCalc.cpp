@@ -107,7 +107,7 @@ int main() {
                     std::cout << "\n";
                 }
             } catch (std::invalid_argument) {
-                std::cout << widthAsStr << "is not a number";
+                std::cout << widthAsStr << " is not a number";
                 std::cout << "\n";
             }
         } catch (std::invalid_argument) {
