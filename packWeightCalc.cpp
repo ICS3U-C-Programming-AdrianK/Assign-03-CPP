@@ -31,8 +31,7 @@ int main() {
     std::cout << "Enter the shape your package (lowercase letters) : ";
     std::cin >> packShape;
     std::cout << "\n";
-    if (packShape == "rectangle" || packShape == "rectangular shape"
-    || packShape == "rectangular") {
+    if (packShape == "rectangle" || packShape == "rectangular") {
         // Get the length of the package
         std::cout << "Enter the length your package (cm) : ";
         std::cin >> lengthAsStr;
